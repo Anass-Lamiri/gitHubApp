@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.input_field {
+    /* background-color: #e46667; */
+    margin: 30px 0;
+}
+#input {
+    height: 30px;
+    width: 80%;
+}
+.input_field .submit {
+    width: 19%;
+    height: 30px;
+}
+
+
+.result {
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.result:not(:last-child) {
+    margin-bottom: 15px;
+}
+.result span {
+    display: flex;
+}
+.result span p {
+    margin-left: 10px;
+}
+.result span a {
+    text-decoration: none;
+    color: #444444;
+}
+
+
+
+
+
+
+
+
+
