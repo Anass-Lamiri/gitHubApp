@@ -7,42 +7,84 @@
 
 .container {
     width: 80%;
+    background-color: #F6F6F6;
     margin: 0 auto;
 }
 
 
 .input_field {
-    /* background-color: #e46667; */
-    margin: 30px 0;
+    padding: 20px;
+    display: flex;
+    background-color: #EEE;
+    margin: 30px 0 0;
 }
 #input {
-    height: 30px;
-    width: 80%;
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    font-size: 20px;
+    height: 54px;
+}
+#input:focus {
+  outline: 2px solid #F44336;
 }
 .input_field .submit {
-    width: 19%;
-    height: 30px;
+    width: 140px;
+    margin-left: 10px;
+    height: 54px;
+    border: none;
+    background-color: #F44336;
+    color: #FFF;
+    line-height: 54px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
 }
 
+.show-data {
+    padding: 20px;
+    background-color: #E0E0E0;
+}
+.show-data .error {
+    color: rgb(214, 23, 23);
+    font-weight: bold;
+    font-size: 16px;
+}
 
 .result {
-    background-color: #eee;
+    background-color: #FFF;
+    padding: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .result:not(:last-child) {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 .result span {
     display: flex;
 }
 .result span p {
-    margin-left: 10px;
+    background-color: #009688;
+    margin-left: 4px;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 12px;
+    width: 90px;
+    text-align: center;
+    padding: 4px;
+
 }
 .result span a {
     text-decoration: none;
-    color: #444444;
+    margin-left: 4px; 
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 12px; 
+    width: 90px;
+    text-align: center;
+    padding: 4px;
+    background-color: #E91E63;
 }
 
 
