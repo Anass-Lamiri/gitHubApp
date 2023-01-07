@@ -1,10 +1,4 @@
 
-/* 
-    making a web page that have an input field where the user will enter a user
-    gitHub name and will be displayed in the user interface with the name of the
-    repo and the link and the stars it has.
-*/
-
 let input = document.getElementById("input");
 let submit = document.querySelector(".submit");
 
